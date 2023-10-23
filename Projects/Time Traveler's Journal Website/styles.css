@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background image for a vintage look */
+body {
+    background-image: url('time_travel_bg.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Style the header */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style sections */
+section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+section ul {
+    list-style-type: disc;
+}
+
+section ul li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Style journal entries */
+.entry {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.entry h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px;
+}
