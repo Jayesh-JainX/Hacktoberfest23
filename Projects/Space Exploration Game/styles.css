@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#game-container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #000, #001f4d, #0053b3, #001f4d, #000);
+    position: relative;
+}
+
+#spaceship {
+    width: 50px;
+    height: 50px;
+    background: url('spaceship.png') no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.obstacle {
+    width: 20px;
+    height: 100px;
+    background: #FF5733;
+    position: absolute;
+    animation: obstacle 2s linear infinite;
+    top: -100px;
+}
+
+@keyframes obstacle {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
