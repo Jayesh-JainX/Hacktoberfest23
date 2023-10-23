@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Escape Room</h1>
+        <p>You find yourself locked in a mysterious room. Can you solve the puzzles and escape?</p>
+        <div class="puzzle">
+            <h2>Puzzle 1</h2>
+            <p>Find the key to unlock the door.</p>
+            <button id="puzzle1-button" class="btn">Unlock</button>
+        </div>
+        <div class="puzzle">
+            <h2>Puzzle 2</h2>
+            <p>Decode the cryptic message.</p>
+            <input type="text" id="puzzle2-input" placeholder="Enter code" class="input">
+            <button id="puzzle2-button" class="btn">Solve</button>
+        </div>
+        <div class="puzzle">
+            <h2>Puzzle 3</h2>
+            <p>Arrange the objects in the correct order.</p>
+            <ul id="puzzle3-list">
+                <li class="item">Item 1</li>
+                <li class="item">Item 2</li>
+                <li class="item">Item 3</li>
+            </ul>
+            <button id="puzzle3-button" class="btn">Submit</button>
+        </div>
+        <div class="message" id="success-message">
+            <p>Congratulations! You've escaped the room!</p>
+        </div>
+        <div class="message" id="fail-message">
+            <p>Sorry, time's up! You couldn't escape this time.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
